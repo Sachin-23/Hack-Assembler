@@ -2,11 +2,11 @@
 
 This is a 16-bit machine language assembler for 16-bit Hack Assembly Language.
 
-Example Usage: 
+### Example Usage: 
 ```sh
 ./asm Max.asm (optional output filename)
 ```
-Max.asm
+#### Max.asm
 ```
 // Computes R2 = max(R0, R1)  (R0,R1,R2 refer to RAM[0],RAM[1],RAM[2])
 
@@ -34,7 +34,7 @@ Max.asm
   0;JMP            // infinite loop
 ```
 
-Max.hack
+#### Max.hack
 ```
 0000000000000000
 1111110000010000
